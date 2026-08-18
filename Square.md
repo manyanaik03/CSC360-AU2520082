@@ -48,3 +48,4 @@ public class Square extends JPanel {
         frame.setVisible(true);
     }
 }
+```
