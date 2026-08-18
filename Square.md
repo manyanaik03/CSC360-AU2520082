@@ -1,8 +1,8 @@
- Square Drawing Program
+ # Square Drawing Program
 
 
 
-Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ To draw a square using Java programming and four straight lines.
 
 
 
-Program
+## Program
 
 
 
@@ -18,7 +18,7 @@ The program uses Java Swing and the Graphics class to create a window and draw a
 
 
 
-Code
+## Code
 
 
 
