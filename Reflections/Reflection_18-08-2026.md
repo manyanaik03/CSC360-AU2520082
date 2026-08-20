@@ -53,4 +53,17 @@ Key Terms: JFrame · Graphics · paint(Graphics g) · super.paint(g) · drawRect
 
 ### Q4: What happens if setDefaultCloseOperation isn't set? 
 **A:** The window closes visually, but the JVM process may keep running in the background since nothing tells it to exit.
+### Q5. How can the square be made interactive?
+
+**A:** Capture mouse events.
+Obtain the mouse position.
+Update the square's coordinates.
+Repaint the graphics.
+Mouse Event
+    ↓
+Get Position
+    ↓
+Update Coordinates
+    ↓
+Repaint
 
