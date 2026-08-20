@@ -48,7 +48,7 @@ JDK ready for compiling \& running Java
 
 
 
-##2. Installing Maven
+## 2. Installing Maven
 
 * Maven is a build automation and dependency management tool for Java.
 * It helps in compiling code, managing dependencies, running tests, and packaging projects.
@@ -60,7 +60,7 @@ JDK ready for compiling \& running Java
 
 
 
-##3. Java and Maven
+## 3. Java and Maven
 
 * Java is used to write and run Java programs.
 * Maven helps manage and build Java projects.
@@ -84,7 +84,7 @@ JDK ready for compiling \& running Java
 
 
 
-##4. Setting Up the Development Environment
+## 4. Setting Up the Development Environment
 
 
 
@@ -92,7 +92,7 @@ Beyond installing Java and Maven themselves, "setup" also covers getting an edit
 
 
 
-##5. Writing the First Java Program — Drawing a Square
+## 5. Writing the First Java Program — Drawing a Square
 
 
 
