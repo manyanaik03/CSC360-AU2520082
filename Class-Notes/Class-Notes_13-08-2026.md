@@ -1,4 +1,4 @@
-\# CSC360 — Class Notes
+# CSC360 — Class Notes
 
 
 
@@ -6,17 +6,17 @@
 
 
 
-\*\*AU ID:\*\* AU2520082  
+**AU ID:** AU2520082  
 
 
 
-\*\*Date:\*\* 13/08/2026  
+**Date:** 13/08/2026  
 
 
 
-\---
+---
 
-\## 1.Installing Java (JDK)
+## 1.Installing Java (JDK)
 
 
 
@@ -26,29 +26,29 @@ Before writing any Java program, you need the JDK (Java Development Kit) install
 
 Download JDK installer
 
-&#x20;       ↓
+      ↓
 
 Run installer / set JAVA\_HOME
 
-&#x20;       ↓
+      ↓
 
 Add java \& javac to system PATH
 
-&#x20;       ↓
+      ↓
 
 Verify: java -version
 
-&#x20;       ↓
+      ↓
 
 Verify: javac -version
 
-&#x20;       ↓
+      ↓
 
 JDK ready for compiling \& running Java
 
 
 
-\##2. Installing Maven
+##2. Installing Maven
 
 * Maven is a build automation and dependency management tool for Java.
 * It helps in compiling code, managing dependencies, running tests, and packaging projects.
@@ -56,25 +56,25 @@ JDK ready for compiling \& running Java
 * Maven requires Java/JDK to work.
 * Maven installation can be checked using:
 
-&#x20;  mvn -version
+  mvn -version
 
 
 
-\##3. Java and Maven
+##3. Java and Maven
 
 * Java is used to write and run Java programs.
 * Maven helps manage and build Java projects.
 * A Maven project commonly contains:
 
-&#x20;  1.src/main/java
+  1.src/main/java
 
-&#x20;  2.src/main/resources
+  2.src/main/resources
 
-&#x20;  3.src/test/java
+  3.src/test/java
 
-&#x20;  4.target
+  4.target
 
-&#x20;  5.pom.xml
+  5.pom.xml
 
 
 
@@ -84,7 +84,7 @@ JDK ready for compiling \& running Java
 
 
 
-\##4. Setting Up the Development Environment
+##4. Setting Up the Development Environment
 
 
 
@@ -92,7 +92,7 @@ Beyond installing Java and Maven themselves, "setup" also covers getting an edit
 
 
 
-\##5. Writing the First Java Program — Drawing a Square
+##5. Writing the First Java Program — Drawing a Square
 
 
 
@@ -102,19 +102,19 @@ With the environment working, the first program applied that setup practically b
 
 Create JFrame window
 
-&#x20;       ↓
+       ↓
 
 Override paint(Graphics g)
 
-&#x20;       ↓
+       ↓
 
 g.setColor(...)
 
-&#x20;       ↓
+       ↓
 
 g.drawRect(x, y, w, h)
 
-&#x20;       ↓
+       ↓
 
 Compile \& run via Maven/java
 
