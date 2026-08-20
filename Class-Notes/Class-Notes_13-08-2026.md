@@ -26,23 +26,23 @@ Before writing any Java program, you need the JDK (Java Development Kit) install
 
 Download JDK installer
 
-      ↓
+ &#x20;     ↓
 
 Run installer / set JAVA\_HOME
 
-      ↓
+ &#x20;     ↓
 
 Add java \& javac to system PATH
 
-      ↓
+ &#x20;     ↓
 
 Verify: java -version
 
-      ↓
+ &#x20;     ↓
 
 Verify: javac -version
 
-      ↓
+ &#x20;     ↓
 
 JDK ready for compiling \& running Java
 
@@ -102,19 +102,19 @@ With the environment working, the first program applied that setup practically b
 
 Create JFrame window
 
-       ↓
+&#x20;       ↓
 
 Override paint(Graphics g)
 
-       ↓
+&#x20;       ↓
 
 g.setColor(...)
 
-       ↓
+&#x20;       ↓
 
 g.drawRect(x, y, w, h)
 
-       ↓
+&#x20;       ↓
 
 Compile \& run via Maven/java
 
