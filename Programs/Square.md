@@ -55,7 +55,7 @@ public class Square extends JPanel {
 
    public static void main(String\[] args) {
 
-&#x20;       JFrame frame = new JFrame("My Square");
+       JFrame frame = new JFrame("My Square");
 
 
 
