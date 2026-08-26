@@ -1,8 +1,8 @@
-\# Square Drawing Program
+# Square Drawing Program
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ To draw a square using Java programming and four straight lines.
 
 
 
-\## Program
+## Program
 
 
 
@@ -18,7 +18,7 @@ The program uses Java Swing and the Graphics class to create a window and draw a
 
 
 
-\## Java Code
+## Java Code
 
 
 
@@ -33,50 +33,48 @@ import java.awt.\*;
 public class Square extends JPanel {
 
 
+   @Override
 
-&#x20;   @Override
+   protected void paintComponent(Graphics g) {
 
-&#x20;   protected void paintComponent(Graphics g) {
-
-&#x20;       super.paintComponent(g);
-
-
-
-&#x20;       g.drawLine(100, 100, 300, 100);
-
-&#x20;       g.drawLine(300, 100, 300, 300);
-
-&#x20;       g.drawLine(300, 300, 100, 300);
-
-&#x20;       g.drawLine(100, 300, 100, 100);
-
-&#x20;   }
+       super.paintComponent(g);
 
 
 
-&#x20;   public static void main(String\[] args) {
+       g.drawLine(100, 100, 300, 100);
+
+       g.drawLine(300, 100, 300, 300);
+
+       g.drawLine(300, 300, 100, 300);
+
+       g.drawLine(100, 300, 100, 100);
+
+   }
+
+
+
+   public static void main(String\[] args) {
 
 &#x20;       JFrame frame = new JFrame("My Square");
 
 
 
-&#x20;       frame.add(new Square());
+       frame.add(new Square());
 
-&#x20;       frame.setSize(400, 400);
+       frame.setSize(400, 400);
 
-&#x20;       frame.setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);
+       frame.setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE);
 
-&#x20;       frame.setVisible(true);
+       frame.setVisible(true);
 
-&#x20;   }
+   }
 
 }
 
-```
 
 
 
-\## Execution
+## Execution
 
 
 
@@ -84,13 +82,7 @@ The program was compiled and executed using Command Prompt.
 
 
 
-```text
 
-javac Square.java
-
-java Square
-
-```
 
 
 
